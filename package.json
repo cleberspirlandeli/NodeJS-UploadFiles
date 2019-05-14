@@ -1,0 +1,30 @@
+{
+  "name": "NodeJS-UploadFiles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "nodemon": "nodemon ./src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleberspirlandeli/NodeJS-UploadFiles.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cleberspirlandeli/NodeJS-UploadFiles/issues"
+  },
+  "homepage": "https://github.com/cleberspirlandeli/NodeJS-UploadFiles#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.5.8",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
